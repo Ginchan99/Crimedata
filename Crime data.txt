@@ -1,0 +1,14 @@
+rm(list = ls())
+#type ctrl+enter
+setwd("C:/Users/tusht/OneDrive/Desktop/CrimeDataBDA")
+mvt = read.csv("CrimeData.csv")
+#read.csv -> to read the file
+#How many rows of data (observations) are in the dataset
+length(mvt)
+length(mvt$ID)
+
+#summary of data
+
+str(mvt)
+summary(mvt)
+#Using the "max" function, what is maximum value of variable ID
