@@ -1,4 +1,5 @@
 rm(list = ls())
+rm
 # type ctrl + r
 
 setwd("C:/Users/tusht/OneDrive/Desktop/CrimeDataBDA")
